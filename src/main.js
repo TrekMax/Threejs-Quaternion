@@ -502,8 +502,12 @@ function initGimbal() {
       if (mode === 'euler') {
         root.rotation.y = Math.sin(elapsed * .45) * .55;
         pivotX.rotation.x = Math.min(Math.PI / 2, elapsed * .55);
+        pivotZ.rotation.x *= .88;
+        pivotZ.rotation.y *= .88;
         pivotZ.rotation.z = Math.sin(elapsed * .9) * .65;
       } else {
+        root.rotation.y *= .88;
+        pivotX.rotation.x *= .88;
         const q1 = new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(1, 1, 0).normalize(), Math.sin(elapsed * .7) * 1.7);
         pivotZ.quaternion.slerp(q1, .08);
       }
