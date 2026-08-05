@@ -164,7 +164,7 @@ app.innerHTML = `
           <h3>为什么公式里是 θ⁄2？</h3>
           <p>旋转向量 <span class="math">v</span> 时，我们做的是一次“夹心乘法”：</p>
           <div class="sandwich"><span>v′</span> = <b>q</b> · v · <b>q<sup>−1</sup></b></div>
-          <p class="muted">左乘和右乘各贡献一半，合起来才是完整的 θ。半角不是技巧，而是这种旋转结构的自然结果。</p>
+          <p class="muted">在 q · v · q⁻¹ 的共轭作用中，参数对应的几何转角会加倍；因此 q 只需编码 θ⁄2，最终作用在向量上的才是完整的 θ。</p>
         </div>
         <div class="half-visual" aria-hidden="true">
           <div class="orbit orbit-a"><span>θ⁄2</span></div>
