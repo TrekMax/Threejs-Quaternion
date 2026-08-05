@@ -107,7 +107,7 @@ h1 em, h2 em { color: var(--orange); font-family: Georgia, 'Noto Serif SC', seri
 .primary-btn:hover, .outline-btn:hover { transform: translateY(-2px); background: var(--orange); border-color: var(--orange); }
 .text-btn { border: 0; background: none; padding: 10px 0; cursor: pointer; font-size: 14px; font-weight: 600; }
 .play-dot { display: inline-grid; place-items: center; width: 24px; height: 24px; margin-right: 5px; border: 1px solid var(--line); border-radius: 50%; font-size: 9px; }
-.hero-note { display: flex; gap: 14px; margin-top: 46px; padding-top: 18px; width: min(400px, 90%); border-top: 1px solid var(--line); }
+.hero-note { display: flex; gap: 14px; margin-top: 46px; padding-top: 18px; width: min(455px, 95%); border-top: 1px solid var(--line); }
 .hero-note > span { flex: 0 0 auto; height: 24px; padding: 3px 8px; background: var(--lime); font-family: var(--mono); font-size: 11px; white-space: nowrap; }
 .hero-note p { color: var(--muted); font-size: 13px; line-height: 1.75; }
 .hero-visual { position: relative; height: min(650px, 69vh); }
